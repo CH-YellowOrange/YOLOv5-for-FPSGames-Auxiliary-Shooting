@@ -22,7 +22,7 @@
 
 # How to use?
   > - Before starting, modify the screen resolution, detection frame range and other parameters in the '''utils/FPSUtils.py''' file.
-  > - Please modify the model location in the '''FPSdetect.py''' file: '''model = attempt_load('Change here to your own path\FPSAutomaticAiming\yolov5s.pt', map_location=device) # load FP32 model'''.
+  > - Please modify the model location in the '''FPSdetect.py''' file: ' ''model = attempt_load('Change here to your own path\FPSAutomaticAiming\yolov5s.pt', map_location=device) # load FP32 model'' '.
   > - Modify the mouse movement related code in '''Main.py''' to your own mouse movement code.
   > - After modifying the relevant parameters, run '''`Main.py''' directly to start this project.
 
